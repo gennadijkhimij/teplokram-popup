@@ -1,0 +1,234 @@
+#blok-popup {
+    width: 100%;
+    font-size: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    /*display: none;*/
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    width: 50%;
+    margin: 0 auto;
+}
+
+aside {
+    width: 50%;
+    max-height: 50%;
+    margin-top: 1%;
+    font-size: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    width: 100%;
+    margin-top: 1%;
+}
+
+footer li {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1%;
+}
+
+.footer-p {
+    font-weight: 600;
+    color: rgba(216, 84, 28, 1);
+    text-transform: uppercase;
+}
+
+p {
+    text-align: center;
+    font-size: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    /*left: 20px;*/
+}
+
+.footer-social {
+    margin: 5px auto;
+    width: 100%;
+    background: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    /*центрування по горизонту*/
+    align-items: center;
+    /*центрування по вертикалі */
+}
+
+.nav-itm {
+    width: 180px;
+    left: 50%;
+}
+
+h1 {
+    text-align: center;
+    font-style: normal;
+    color: rgba(216, 84, 28, 1);
+    text-transform: uppercase;
+}
+
+@media all and (max-width: 1300px) {
+    aside {
+        font-size: 90%;
+    }
+    .footer-social {
+        height: 15%;
+    }
+    .nav-itm {
+        width: 170px;
+        left: 50%;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    aside {
+        font-size: 80%;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    aside {
+        font-size: 70%;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    aside {
+        font-size: 60%;
+    }
+}
+
+@media all and (max-width: 850px) {
+    section {
+        width: 80%;
+        margin-top: 1%;
+    }
+    aside {
+        width: 100%;
+        margin-top: 1%;
+        font-size: 80%;
+    }
+}
+
+@media all and (max-width: 780px) {
+    section {
+        width: 85%;
+        margin-top: 1%;
+    }
+    aside {
+        font-size: 70%;
+    }
+}
+
+@media all and (max-width: 656px) {
+    main {
+        flex-direction: column;
+        /*width: 100%;*/
+        /*height: 700px;*/
+        display: flex;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .nav-itm {
+        width: 140px;
+        left: 50%;
+    }
+    aside {
+        font-size: 65%;
+    }
+}
+
+@media all and (max-width: 540px) {
+    .fancybox-wrap,
+    .fancybox-wrap * {
+        font-size: 8px;
+    }
+    main {
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .md_button {
+        font-size: 10px!important;
+    }
+    .nav-itm {
+        width: 120px;
+        left: 50%;
+    }
+    aside {
+        font-size: 55%;
+    }
+}
+
+@media all and (max-width: 414px) {
+    aside {
+        font-size: 55%;
+    }
+    p {
+        font-size: 100%;
+    }
+    .nav-itm {
+        width: 100px;
+        left: 50%;
+    }
+    .md_button {
+        font-size: 10px!important;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .nav-itm {
+        width: 80px;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .nav-itm {
+        width: 70px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .nav-itm {
+        width: 60px;
+    }
+    p {
+        margin: 0 0 8.5px;
+    }
+}
+
+@media all and (max-width: 280px) {
+    .nav-itm {
+        width: 50px;
+    }
+    .md_button {
+        font-size: 8px!important;
+    }
+    p {
+        margin: 0 0 6.5px;
+    }
+}
